@@ -110,5 +110,5 @@ def A_stric(graph, graph_cost, heuristic_val, start, goal):
     return node
 # A_stric Function  : End
             
-# call A_stric function
+# call A_stric function - start node S' and goal node 'D'
 print('\t   ' + str(A_stric(graph, graph_cost, heuristic_val, 'S', 'D')))
