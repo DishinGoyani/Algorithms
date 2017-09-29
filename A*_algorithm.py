@@ -10,7 +10,7 @@ A* (stric) Algorithm
 # Store successor of each node
 graph = {
           'S' : ['A','B'],
-	      'A' : ['B','C','D'],
+	  'A' : ['B','C','D'],
           'B' : ['C'],
           'C' : ['D'],
           'D' : []
@@ -19,7 +19,7 @@ graph = {
 # Store successor cost of each node
 graph_cost = {
           'S' : [1,4],
-	      'A' : [2,5,12],
+	  'A' : [2,5,12],
           'B' : [2],
           'C' : [3],
           'D' : []
